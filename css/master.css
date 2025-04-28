@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    display: block;
+    border: 2px solid #eee;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: 2px solid red;
+}
+
+input,
+div {
+    width: 345px;
+}
+
+div {
+    margin-top: 15px;
+}
