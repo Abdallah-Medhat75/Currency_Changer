@@ -22,8 +22,14 @@ input:focus {
 }
 
 input,
-div {
+div, 
+select {
     width: 345px;
+}
+
+select {
+    margin-top: 15px;
+    padding: 10px 0;
 }
 
 div {
